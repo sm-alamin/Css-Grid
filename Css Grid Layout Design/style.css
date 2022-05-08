@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+/* SET UP */
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  background-color: snow;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.item {
+  padding: 8px;
+  background-color: white;
+  border: 4px solid tomato;
+  border-radius: 6px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.height-50 {
+  height: 50vh;
+}
+
+/* layout 1 */
+
+.container_one {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* layout 2 */
+
+.layout-2.container {
+}
+
+.layout-2 .item-1 {
+}
+
+.layout-2 .item-2 {
+}
+
+/* layout 3.1 */
+
+.layout-3-1.container {
+}
+
+@media (min-width: 720px) {
+  .layout-3-1.container {
+  }
+
+  .layout-3-1 .header {
+  }
+
+  .layout-3-1 .navigation {
+  }
+
+  .layout-3-1 .main {
+  }
+
+  .layout-3-1 .sidebar {
+  }
+
+  .layout-3-1 .ads {
+  }
+
+  .layout-3-1 .footer {
+  }
+}
+
+@media (min-width: 1020px) {
+  .layout-3-1 .header {
+  }
+
+  .layout-3-1 .navigation {
+  }
+
+  .layout-3-1 .main {
+  }
+
+  .layout-3-1 .sidebar {
+  }
+
+  .layout-3-1 .ads {
+  }
+
+  .layout-3-1 .footer {
+  }
+}
+
+/* layout 3.2 */
+
+.layout-3-2.container {
+}
+
+.layout-3-2 .header {
+}
+
+.layout-3-2 .navigation {
+}
+
+.layout-3-2 .ads {
+}
+
+.layout-3-2 .sidebar {
+}
+
+.layout-3-2 .main {
+}
+
+.layout-3-2 .footer {
+}
+
+@media (min-width: 720px) {
+}
+
+@media (min-width: 1020px) {
+}
+
+/* layout 4 */
+
+.layout-4.container {
+}
+
+.layout-4 .item-5 {
+}
+
+/* layout 5 */
+
+.layout-5.container {
+}
+
+.layout-5 .item-1 {
+}
+
+.layout-5 .item-2 {
+}
+
+.layout-5 .item-3 {
+}
+
+.layout-5 .item-4 {
+}
