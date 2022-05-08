@@ -40,13 +40,20 @@ body {
 
 /* layout 2 */
 
-.layout-2.container {
+.container_two {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 20px;
+  align-items: center;
 }
 
-.layout-2 .item-1 {
+.container_two .item-1 {
+  grid-column: 1 / span 4;
 }
 
-.layout-2 .item-2 {
+.container_two .item-2 {
+  grid-column: 5 / span 6;
 }
 
 /* layout 3.1 */
